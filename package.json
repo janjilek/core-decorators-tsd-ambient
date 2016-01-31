@@ -1,0 +1,15 @@
+{
+  "name": "retyped-core-decorators-tsd-ambient",
+  "description": "TypeScript typings for core-decorators",
+  "version": "0.1.5-0",
+  "licence": "MIT",
+  "repository": "https://github.com/retyped/core-decorators-tsd-ambient",
+  "typescript": {
+    "definition": "core-decorators.d.ts"
+  },
+  "keywords": [
+    "retyped",
+    "tsd",
+    "tsd-ambient"
+  ]
+}
