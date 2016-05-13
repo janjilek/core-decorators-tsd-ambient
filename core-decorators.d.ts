@@ -61,6 +61,10 @@ declare module "core-decorators" {
      */
     var suppressWarnings: MethodDecorator;
     /**
+     * Marks a method as being enumerable
+     */
+    var enumerable: MethodDecorator;
+    /**
      * Marks a property or method as not being enumerable.
      */
     var nonenumerable: PropertyOrMethodDecorator;
@@ -79,6 +83,7 @@ declare module "core-decorators" {
         override,
         deprecate,
         deprecated,
+        enumerable,
         debounce,
         suppressWarnings,
         nonenumerable,
